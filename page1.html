@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="addClass()">
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="page1.html">
+                        <img src="http://www.icons101.com/icon_png/size_128/id_70532/pusheen_2.png">
+                    </a>
+                </div>
+                <div class="col-sm-9">
+                    <ul class="main-menu">
+                        <li id="home">
+                            <a href="page1.html">Home</a>
+                        </li>
+                        <li id="articles">
+                            <a href="page2.html">Articles</a>
+                        </li>
+                        <li id="chat">
+                            <a href="page3.html">Chat</a>
+                        </li>
+                        <li id="register">
+                            <a href="page4.html">Register</a>
+                        </li>
+                        <li id="about-us">
+                            <a href="page5.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+
+                <div id="myCarousel" class="col-sm-12 slider-image carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <img src="http://knowyourcritter.com/wp-content/uploads/2015/11/orange-cat-1024x682.jpg">
+                        </div>
+
+                        <div class="item">
+                            <img src="https://www.villagevetofurbana.com/wp-content/uploads/2017/11/cat-1986499_1280-compressor-1024x682.jpg">
+                        </div>
+
+                        <div class="item active">
+                            <img src="https://www.aimss-sf.com/blog/wp-content/uploads/2017/08/AIMSS_iStock-530907367-1024x682.jpg">
+                        </div>
+
+                        <div class="item">
+                            <img src="http://www.godspeedanimalcare.com/blog/wp-content/uploads/2017/01/Godspeed_iStock-175760254-1024x682.jpg">
+                        </div>
+
+                        <div class="item">
+                            <img src="https://www.aquavertclean.com/wp-content/uploads/2017/06/cat-649164_1280-1024x682.jpg">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>3 most recent articles</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="article1.html">
+                                <img src="http://www.icons101.com/icon_png/size_128/id_70537/pusheen_7.png">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="article1.html">Article 1</a>
+                            </h5>
+                            <p>Article 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo,
+                                inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur,
+                                deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="article2.html">
+
+                                <img src="http://www.icons101.com/icon_png/size_128/id_70536/pusheen_6.png">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="article2.html">Article 2</a>
+
+                            </h5>
+                            <p>Article 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo,
+                                inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur,
+                                deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="article3.html">
+
+                                <img src="http://www.icons101.com/icon_png/size_128/id_70538/pusheen_8.png">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="article3.html">Article 3</a>
+
+                            </h5>
+                            <p>Article 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo,
+                                inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur,
+                                deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    &copy; trololo
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
